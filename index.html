@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exploring NHL 2014-15 Statistics</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Exploring NHL 2014-15 Statistics">
+  <meta name="author" content="gr1llman">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="../../libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="../../libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="../../libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="../../libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="../../libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="../../libraries/frameworks/io2012/js/slides" 
+    src="../../libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Exploring NHL 2014-15 Statistics</h1>
+    <h2>Using Player's Country of Birth</h2>
+    <p>gr1llman<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="class1" id="id1" style="background:;">
+  <hgroup>
+    <h2>Overview</h2>
+  </hgroup>
+  <article data-timings="">
+    <h3>Purpose</h3>
+
+<p>The <a href="https://gr1llman.shinyapps.io/DevelopingDataProducts">NHL Statistics by Country of Birth application</a> is intended to provide the user with the ability to generate statistical summaries, as well as visualizations, from NHL 2014-15 data based on the birth country of players who played at least one game during that season.</p>
+
+<h3>Background</h3>
+
+<p>The application has been developed by github user gr1llman to satisfy project requirements for &quot;Developing Data Products&quot; - a course offered by Johns Hopkins Bloomberg School of Public Health through <a href="http://www.coursera.org">coursera.org</a></p>
+
+<h3>Disclaimer</h3>
+
+<p>The application and the developer are in no way affiliated with the NHL, nor to Rob Vollman, who compiled the data used by the application, which is available at <a href="http://www.hockeyabstract.com">hockeyabstract.com</a></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Using the Application</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The application is hosted online at <a href="https://gr1llman.shinyapps.io/DevelopingDataProducts">https://gr1llman.shinyapps.io/DevelopingDataProducts</a></p>
+
+<p>There are two (2) tabs</p>
+
+<ul>
+<li>&quot;NHL Statistics&quot; with the interactive part of the application</li>
+<li>&quot;About / Using this Application&quot; with background and instructions.</li>
+</ul>
+
+<p>The interface is simple.  The user selects a country of birth from a dropdown menu which triggers an update of the statistics as well as two (2) bar charts.</p>
+
+<p>One bar charts provides a visualization of the total number of goals scored by players born in the selected country, further aggregated by draft year.  The other provides a similar view of the total number of games played.</p>
+
+<p>Statistics are in the left hand panel of the application and include goal scoring statistics, compared to the entire NHL, as well as the average height, weight and age of the players.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Sample Visualization - Players Born in Canada</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="Sample.png" alt="width"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Recommended Enhancements</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>There is a very large amount of data available about the NHL.  Just the basic data used for this application has 120 variables about the 882 players who played in 2014-15.</p>
+
+<p>Enhancements could include providing the ability to select the variables to summarize and providing support for additional statistical functions, such as regression.</p>
+
+<p>Additional visualization could also provide insight.  Here is an example of one comparing goals scored to the age of the goal scorer.  Visualizations like this should be incorporated in a future release.</p>
+
+<p><img src="assets/fig/figure_1-1.png" alt="plot of chunk figure_1"> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Overview'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Using the Application'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Sample Visualization - Players Born in Canada'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Recommended Enhancements'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- MathJax: Fall back to local if CDN offline but local image fonts are not supported (saves >100MB) -->
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        processEscapes: true
+      }
+    });
+  </script>
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <!-- <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script> -->
+  <script>window.MathJax || document.write('<script type="text/x-mathjax-config">MathJax.Hub.Config({"HTML-CSS":{imageFont:null}});<\/script><script src="../../libraries/widgets/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"><\/script>')
+</script>
+<!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="../../libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
