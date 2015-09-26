@@ -10,7 +10,7 @@ url:
         lib: ../../libraries
         assets: ../../assests
 widgets     : [mathjax]            # {mathjax, quiz, bootstrap}
-mode        : selfcontained # {standalone, draft}
+mode        : standalone # {selfcontained, draft}
 knit        : slidify::knit2slides
 
 --- .class1 #id1 font-size: 50%;
